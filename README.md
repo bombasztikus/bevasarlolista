@@ -10,7 +10,7 @@ Egy tételt a listában az X gombbal lehet törölni, a ceruza gombra kattintva 
 
 Az új és a szerkesztett tételek a lista végére kerülnek.
 
-A lista az oldal frissítékor vgay újra megnyitásakor sem törlődik. Az adatokat a böngészőben (LocalStorage) tároljuk.
+A lista az oldal frissítékor vagy újra megnyitásakor sem törlődik. Az adatokat a böngészőben (LocalStorage) tároljuk.
 
 ## Repository kezelése
 
@@ -61,7 +61,7 @@ Készíts egy *letrehoz* nevű függvényt, amely a lista HTML kódjához hozzá
 
 1. Úres elemeket nem szeretnénk hozzáadni a listához. Üres szövegmező esetén az eseménykezelő fejezze be a működését!
 
-1. Az eseménykezelő hívja meg a betolt függvényt a szöveges mezőbe írt szöveggel!
+1. Az eseménykezelő hívja meg a *letrehoz* függvényt a szöveges mezőbe írt szöveggel!
 
 1. Az új elem felvétele után a szöveges mező törlődjön, és kerüljön rá a kurzor! Próbáld ki az adatok bevitelét a böngészőben!
 

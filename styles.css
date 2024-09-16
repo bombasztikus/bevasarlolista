@@ -1,0 +1,21 @@
+body {
+    margin: 1rem;
+    background-color: cornsilk;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+    margin: 1rem 0;
+}
+
+form input {
+    font-size: 1.1rem;
+}
+
+#lista {
+    margin: 0.5rem 0;
+}
+
+.lista-elem {
+    margin: 0.5rem 0;
+}
